@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C28C5EEB-DB8A-2786-46E0-CFBEDD3394CA}</ProjectGuid>
+    <ProjectGuid>{FC5623EF-53FC-7F88-BA67-29100EF4961F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -51,29 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\InterfaceEnd.cs" />
-     <Compile Include="Assets\Scripts\InterfaceEnd2.cs" />
-     <Compile Include="Assets\Scripts\InterfaceMenu.cs" />
-     <Compile Include="Assets\Scripts\move.cs" />
-     <Compile Include="Assets\Scripts\move_main.cs" />
-     <Compile Include="Assets\Scripts\move_mainRANDOM.cs" />
-     <Compile Include="Assets\Scripts\move2.cs" />
-     <Compile Include="Assets\Scripts\music.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
-     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
-     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
-     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
-     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
-     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\Dimensions_target.xml" />
-     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
-     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
-     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
-     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
-     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
-     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+     <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/victorgomez/Documents/Unity/Princeton-Hackathon-final/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
@@ -188,6 +166,10 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/victorgomez/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{46120C5F-4DB7-4FBC-BE27-E9B1AEC345BB}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
